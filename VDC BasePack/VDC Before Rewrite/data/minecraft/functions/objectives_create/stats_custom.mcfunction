@@ -1,0 +1,59 @@
+#所有custom类型统计计分板
+
+
+
+scoreboard objectives add animals_bred minecraft.custom:minecraft.animals_bred
+scoreboard objectives add aviate_one_cm minecraft.custom:minecraft.aviate_one_cm
+scoreboard objectives add boat_one_cm minecraft.custom:minecraft.boat_one_cm
+scoreboard objectives add clean_armor minecraft.custom:minecraft.clean_armor
+scoreboard objectives add clean_banner minecraft.custom:minecraft.clean_banner
+scoreboard objectives add climb_one_cm minecraft.custom:minecraft.climb_one_cm
+scoreboard objectives add crouch_one_cm minecraft.custom:minecraft.crouch_one_cm
+scoreboard objectives add damage_dealt minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add damage_taken minecraft.custom:minecraft.damage_taken
+scoreboard objectives add deaths minecraft.custom:minecraft.deaths
+scoreboard objectives add drop minecraft.custom:minecraft.drop
+scoreboard objectives add eat_slice_cake minecraft.custom:minecraft.eat_slice_cake
+scoreboard objectives add enchant_item minecraft.custom:minecraft.enchant_item
+scoreboard objectives add fall_one_cm minecraft.custom:minecraft.fall_one_cm
+scoreboard objectives add fill_cauldron minecraft.custom:minecraft.fill_cauldron
+scoreboard objectives add fish_caught minecraft.custom:minecraft.fish_caught
+scoreboard objectives add fly_one_cm minecraft.custom:minecraft.fly_one_cm
+scoreboard objectives add horse_one_cm minecraft.custom:minecraft.horse_one_cm
+scoreboard objectives add inspect_dispenser minecraft.custom:minecraft.inspect_dispenser
+scoreboard objectives add inspect_dropper minecraft.custom:minecraft.inspect_dropper
+scoreboard objectives add inspect_hopper minecraft.custom:minecraft.inspect_hopper
+scoreboard objectives add interact_with_beacon minecraft.custom:minecraft.interact_with_beacon
+scoreboard objectives add interact_with_brewingstand minecraft.custom:minecraft.interact_with_brewingstand
+scoreboard objectives add interact_with_crafting_table minecraft.custom:minecraft.interact_with_crafting_table
+scoreboard objectives add interact_with_furnace minecraft.custom:minecraft.interact_with_furnace
+scoreboard objectives add jump minecraft.custom:minecraft.jump
+scoreboard objectives add leave_game minecraft.custom:minecraft.leave_game
+scoreboard objectives add minecraft_one_cm minecraft.custom:minecraft.minecraft_one_cm
+scoreboard objectives add mob_kills minecraft.custom:minecraft.mob_kills
+scoreboard objectives add open_chest minecraft.custom:minecraft.open_chest
+scoreboard objectives add open_enderchest minecraft.custom:minecraft.open_enderchest
+scoreboard objectives add open_shulker_box minecraft.custom:minecraft.open_shulker_box
+scoreboard objectives add pig_one_cm minecraft.custom:minecraft.pig_one_cm
+scoreboard objectives add play_notebook minecraft.custom:minecraft.play_notebook
+scoreboard objectives add play_one_minute minecraft.custom:minecraft.play_one_minute
+scoreboard objectives add play_record minecraft.custom:minecraft.play_record
+scoreboard objectives add player_kills minecraft.custom:minecraft.player_kills
+scoreboard objectives add pot_flower minecraft.custom:minecraft.pot_flower
+scoreboard objectives add sleep_in_bed minecraft.custom:minecraft.sleep_in_bed
+scoreboard objectives add sneak_time minecraft.custom:minecraft.sneak_time
+scoreboard objectives add sprint_one_cm minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add swim_one_cm minecraft.custom:minecraft.swim_one_cm
+scoreboard objectives add talked_to_villager minecraft.custom:minecraft.talked_to_villager
+scoreboard objectives add time_since_death minecraft.custom:minecraft.time_since_death
+scoreboard objectives add time_since_rest minecraft.custom:minecraft.time_since_rest
+scoreboard objectives add traded_with_villager minecraft.custom:minecraft.traded_with_villager
+scoreboard objectives add trigger_trapped_chest minecraft.custom:minecraft.trigger_trapped_chest
+scoreboard objectives add tune_noteblock minecraft.custom:minecraft.tune_noteblock
+scoreboard objectives add use_cauldron minecraft.custom:minecraft.use_cauldron
+scoreboard objectives add walk_on_water_one_cm minecraft.custom:minecraft.walk_on_water_one_cm
+scoreboard objectives add walk_one_cm minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add walk_under_water_one_cm minecraft.custom:minecraft.walk_under_water_one_cm
+
+scoreboard players set stats_custom SCBR 1
+

@@ -1,0 +1,2 @@
+tellraw @s ["\u00a7e战斗灵方储备 \u00a7r",{"score":{"name":"@s","objective":"soulquantum"}},"\u00a77/",{"score":{"name":"@s","objective":"soulquantum_max"},"color":"gray"},"      \u00a7a单位\u00a7r：\u00a770.001Unit"]
+scoreboard players reset @s sq_query

@@ -1,0 +1,149 @@
+#开发者模式记分板
+
+scoreboard objectives add Slot_0 dummy
+scoreboard objectives add Slot_1 dummy
+scoreboard objectives add Slot_2 dummy
+scoreboard objectives add Slot_3 dummy
+scoreboard objectives add Slot_4 dummy
+scoreboard objectives add Slot_5 dummy
+scoreboard objectives add Slot_6 dummy
+scoreboard objectives add Slot_7 dummy
+scoreboard objectives add Slot_8 dummy
+scoreboard objectives add Slot_9 dummy
+scoreboard objectives add Slot_10 dummy
+scoreboard objectives add Slot_11 dummy
+scoreboard objectives add Slot_12 dummy
+scoreboard objectives add Slot_13 dummy
+scoreboard objectives add Slot_14 dummy
+scoreboard objectives add Slot_15 dummy
+scoreboard objectives add Slot_16 dummy
+scoreboard objectives add Slot_17 dummy
+scoreboard objectives add Slot_18 dummy
+scoreboard objectives add Slot_19 dummy
+scoreboard objectives add Slot_20 dummy
+scoreboard objectives add Slot_21 dummy
+scoreboard objectives add Slot_22 dummy
+scoreboard objectives add Slot_23 dummy
+scoreboard objectives add Slot_24 dummy
+scoreboard objectives add Slot_25 dummy
+scoreboard objectives add Slot_26 dummy
+
+
+
+
+scoreboard objectives add SlotType_0 dummy
+scoreboard objectives add SlotType_1 dummy
+scoreboard objectives add SlotType_2 dummy
+scoreboard objectives add SlotType_3 dummy
+scoreboard objectives add SlotType_4 dummy
+scoreboard objectives add SlotType_5 dummy
+scoreboard objectives add SlotType_6 dummy
+scoreboard objectives add SlotType_7 dummy
+scoreboard objectives add SlotType_8 dummy
+scoreboard objectives add SlotType_9 dummy
+scoreboard objectives add SlotType_10 dummy
+scoreboard objectives add SlotType_11 dummy
+scoreboard objectives add SlotType_12 dummy
+scoreboard objectives add SlotType_13 dummy
+scoreboard objectives add SlotType_14 dummy
+scoreboard objectives add SlotType_15 dummy
+scoreboard objectives add SlotType_16 dummy
+scoreboard objectives add SlotType_17 dummy
+scoreboard objectives add SlotType_18 dummy
+scoreboard objectives add SlotType_19 dummy
+scoreboard objectives add SlotType_20 dummy
+scoreboard objectives add SlotType_21 dummy
+scoreboard objectives add SlotType_22 dummy
+scoreboard objectives add SlotType_23 dummy
+scoreboard objectives add SlotType_24 dummy
+scoreboard objectives add SlotType_25 dummy
+scoreboard objectives add SlotType_26 dummy
+
+
+
+scoreboard objectives add SlotCount_0 dummy
+scoreboard objectives add SlotCount_1 dummy
+scoreboard objectives add SlotCount_2 dummy
+scoreboard objectives add SlotCount_3 dummy
+scoreboard objectives add SlotCount_4 dummy
+scoreboard objectives add SlotCount_5 dummy
+scoreboard objectives add SlotCount_6 dummy
+scoreboard objectives add SlotCount_7 dummy
+scoreboard objectives add SlotCount_8 dummy
+scoreboard objectives add SlotCount_9 dummy
+scoreboard objectives add SlotCount_10 dummy
+scoreboard objectives add SlotCount_11 dummy
+scoreboard objectives add SlotCount_12 dummy
+scoreboard objectives add SlotCount_13 dummy
+scoreboard objectives add SlotCount_14 dummy
+scoreboard objectives add SlotCount_15 dummy
+scoreboard objectives add SlotCount_16 dummy
+scoreboard objectives add SlotCount_17 dummy
+scoreboard objectives add SlotCount_18 dummy
+scoreboard objectives add SlotCount_19 dummy
+scoreboard objectives add SlotCount_20 dummy
+scoreboard objectives add SlotCount_21 dummy
+scoreboard objectives add SlotCount_22 dummy
+scoreboard objectives add SlotCount_23 dummy
+scoreboard objectives add SlotCount_24 dummy
+scoreboard objectives add SlotCount_25 dummy
+scoreboard objectives add SlotCount_26 dummy
+
+
+
+scoreboard objectives add SlotNBT_0 dummy
+scoreboard objectives add SlotNBT_1 dummy
+scoreboard objectives add SlotNBT_2 dummy
+scoreboard objectives add SlotNBT_3 dummy
+scoreboard objectives add SlotNBT_4 dummy
+scoreboard objectives add SlotNBT_5 dummy
+scoreboard objectives add SlotNBT_6 dummy
+scoreboard objectives add SlotNBT_7 dummy
+scoreboard objectives add SlotNBT_8 dummy
+scoreboard objectives add SlotNBT_9 dummy
+scoreboard objectives add SlotNBT_10 dummy
+scoreboard objectives add SlotNBT_11 dummy
+scoreboard objectives add SlotNBT_12 dummy
+scoreboard objectives add SlotNBT_13 dummy
+scoreboard objectives add SlotNBT_14 dummy
+scoreboard objectives add SlotNBT_15 dummy
+scoreboard objectives add SlotNBT_16 dummy
+scoreboard objectives add SlotNBT_17 dummy
+scoreboard objectives add SlotNBT_18 dummy
+scoreboard objectives add SlotNBT_19 dummy
+scoreboard objectives add SlotNBT_20 dummy
+scoreboard objectives add SlotNBT_21 dummy
+scoreboard objectives add SlotNBT_22 dummy
+scoreboard objectives add SlotNBT_23 dummy
+scoreboard objectives add SlotNBT_24 dummy
+scoreboard objectives add SlotNBT_25 dummy
+scoreboard objectives add SlotNBT_26 dummy
+
+
+scoreboard objectives add SlotHasUID_0 dummy
+scoreboard objectives add SlotHasUID_1 dummy
+scoreboard objectives add SlotHasUID_2 dummy
+scoreboard objectives add SlotHasUID_3 dummy
+scoreboard objectives add SlotHasUID_4 dummy
+scoreboard objectives add SlotHasUID_5 dummy
+scoreboard objectives add SlotHasUID_6 dummy
+scoreboard objectives add SlotHasUID_7 dummy
+scoreboard objectives add SlotHasUID_8 dummy
+scoreboard objectives add SlotHasUID_9 dummy
+scoreboard objectives add SlotHasUID_10 dummy
+scoreboard objectives add SlotHasUID_11 dummy
+scoreboard objectives add SlotHasUID_12 dummy
+scoreboard objectives add SlotHasUID_13 dummy
+scoreboard objectives add SlotHasUID_14 dummy
+scoreboard objectives add SlotHasUID_15 dummy
+scoreboard objectives add SlotHasUID_16 dummy
+scoreboard objectives add SlotHasUID_17 dummy
+scoreboard objectives add SlotHasUID_18 dummy
+scoreboard objectives add SlotHasUID_19 dummy
+scoreboard objectives add SlotHasUID_20 dummy
+scoreboard objectives add SlotHasUID_21 dummy
+scoreboard objectives add SlotHasUID_22 dummy
+scoreboard objectives add SlotHasUID_23 dummy
+scoreboard objectives add SlotHasUID_24 dummy
+scoreboard objectives add SlotHasUID_25 dummy
+scoreboard objectives add SlotHasUID_26 dummy

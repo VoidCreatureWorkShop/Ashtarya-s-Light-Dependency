@@ -1,0 +1,65 @@
+Tag 备忘录
+
+矿船-系统:{
+[marker]
+	标记标签，emmmm
+[system]
+	系统标签。方块marker等也可以使用此标签来避免被清除。  拥有此tag后，kill只需输入    kill @e[tag=!system]    即可避免清除系统内容。 kill @e[tag=!system,type=!player]
+[chunk]
+	区块标签。区块marker所使用的标签
+[vehicle]
+	载具标签
+[block]
+	方块标签，用于自定义方块marker等。
+[machine]
+	机械标签，用于机械方块和移动机械/机甲等
+[trigger]
+	开关标签}w
+
+原版:
+实体-基本类型:{
+[mob]
+	生物标签。确定该实体是生物而非功能性实体（如船、矿车、盔甲架）
+[hostile]
+	敌对标签
+[passive]
+	被动标签
+[neutral]
+	中立标签
+[tameable]
+	可驯服标
+[utility]
+	效用标签
+[defensive]
+	防御标签
+}
+
+实体-分类:{
+[undead]
+	亡灵标签，亡灵生物所使用的标签
+[undead]
+	亡灵标签，2号，我认为是亡灵生的物所使用的标签，比undead多了vex和ghast两个
+[aquatic]
+	水生标签，水生生物的标签-也许包括了水生动物和水生植物以及...各种界的生物
+[nether]
+	下界标签，下界生物
+[arthropods]
+	节肢动物
+[overworld]
+	上界标签，主世界动物的标签
+[explosive]
+	爆炸标签，可以爆炸的实体的标签
+[perishable]
+	易逝标签，一旦受到攻击马上去世，如末影水晶
+[disposable]
+	同归标签，一次性的，同归于尽式攻击的，攻击过后随机灭亡，如苦力怕，和皇室战争中的某些圆滚滚的小精灵
+[triggered]
+	触发标签，触发式激活的实体。
+}
+
+[Boss]
+	头领标签，Boss级别的生物标签
+[rare]
+	稀有标签，稀有实体，比如某种稀有矿石的掉落物，或是不常见的生命。如...寒枝、生命树的枝丫
+[r]
+

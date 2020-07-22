@@ -1,0 +1,2 @@
+execute as @a unless score @s uid matches -2147483648.. run scoreboard players add #player_count vdc_var 1
+execute as @a unless score @s uid matches -2147483648.. run scoreboard players operation @s uid = #player_count vdc_var

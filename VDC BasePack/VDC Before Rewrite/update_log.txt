@@ -1,0 +1,82 @@
+矿船更新日志
+
+Lab 0.1 - Lab 0.4
+·数字：1-10和部分数字
+·计算机：
+·触发器：按住shift
+·计时器：r10t，a10t，a3s，线二
+·视线探测与视线marker前进受阻储存xyz
+
+Lab 0.5 更新日期：约2019.1.26
+·优化预设数字，现在的数字为-500到500，并且还有±1000和±1024
+
+
+Lab 0.6 更新日期: 2019.1.28 凌晨五点整结束
+·添加了珊瑚岛通用计分板：SCBR
+·添加了通用函数标签：structure_registry.json
+·编写了所有简单（无统计等前缀）的计分板准则的计分板的加载函数
+·编写了stats.custom	stats.killed	stats.killed_by类型的加载函数
+#ps.以上所有计分板的加载函数均未投入使用
+
+
+——
+Lab 0.7 预计更新：
+·自然结构生成模块
+·实体分类系统
+-所有记分板加载函数的加载函数。
+-
+
+Lab 0.7
+·函数空间generate（Lab0.6更新）更名为chunk
+
+Lab 0.7-正式 2019.2.10 14:05-18:15
+·chunk marker的生成 范围25个区块（面积）
+·uid(regular)分配
+·添加了ownerid记分板
+
+-
+Lab 0.8 2019.3.11 0:30 - 0.36
+·添加了触发器 event_dead
+·为触发器 key_shift 和 event_dead 提供了简写 shift 和 dead
+·修改了一处错误
+	*指触发器函数的未启用,以及mc_loop中多余的key_shift.这大概是由于触发器独立为函数时的拆迁(x)搬迁未完整所致.
+·强制加载坐标原点周围区块 1:31额外更新
+·函数 calculator/calculator 改名为 calculator/main               3:19
+·重新启动calculator
+ -输入 scoreboard players set calculator UMS 1 启动计算器模块
+ 
+·将计时器函数全部迁入 timer/main   4:14
+
+
+-
+Lab 0.9   2019.3.12 3:09
+·添加了骰子计分板 bonus:1_10和 bonus/1_10
+	*1是分子，10是分母
+-
+Lab 1.0
+·添加了classify模块，等级为命名空间，用以对实体类型进行划分，标签化。
+·制作了标签mob和undead
+
+-
+Lab 1.1 2019.3.30 15:20
+·为mc_loop加入了function worlddata:base的命令
+·更新了pack.mcmeta中的版本号(从Lab 0.4改为Lab 1.1
+
+-
+未知版本
+·添加了事件-攻击（仅近战
+-
+Lab 1.2
+·增加了事件-离开游戏
+·为mc_loop加入了function minecraft:uid/regular_distribute的命令
+·修复了函数func_scb因不知何时手误于第一行备注符号#前面多打了一个q导致的bug
+-
+Lab 1.3
+·删除了sight，在module中重新添加了sight，并重新编写函数。
+·target_pos_x等中的target_pos改为sight_target
+·添加了新模块模板minecraft:module/sight/target和minecraft:module/sight/target_block
+
+-
+Lab 1.4
+·增加了事件 event_openbarrel 及其简写 open_barrel
+·MIC模块加入循环函数

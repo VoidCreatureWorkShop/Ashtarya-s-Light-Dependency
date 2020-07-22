@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:copy_nbt",
+							"source": "this",
+							"ops": [
+								{
+									"source": "HandItems[0].tag",
+									"target": "{}",
+									"op": "merge"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 1
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,3 @@
+scoreboard players set common_trigger module_switch 1
+data modify entity @e[limit=1,tag=vdc] ArmorItems[0].tag.moduleListText[{Name:"common_trigger"}].Text set value '[{"translate":"§7-common_trigger","clickEvent":{"action":"run_command","value":"/function vdc:module/common_trigger/off"},"hoverEvent":{"action":"show_text","value":"§eby Rainbow_"}},"      ",{"translate":"v0.1.0","hoverEvent":{"action":"show_text","value":"上次更改原本写好的内容的版本为：§e0§r\\n0.1.0= 0.1.0\\n0=重写版本\\n1=使用版本\\n0=优化版本   优化版本不影响使用。"}}]'
+tellraw @a "\u00a7ecommon_trigger 模块已开启"

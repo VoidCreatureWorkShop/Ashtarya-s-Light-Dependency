@@ -1,0 +1,6 @@
+execute as @a if data entity @s Inventory[{tag:{HideFlags:1}}] store result score @s var_a if data entity @s Inventory[{tag:{id:"lab/estus_flask"}}]
+scoreboard players add @a var_a 0
+execute as @a[scores={var_a=..2}] if data entity @s Inventory[{tag:{HideFlags:1}}] run give @s potion{CustomPotionEffects:[{Duration:60,Id:10,Amplifier:3}],id:"lab/estus_flask",display:{Name:"{\"text\":\"\\u00a7e原素瓶\"}"}}
+scoreboard players reset @a var_a
+clear @a iron_sword{HideFlags:1}
+execute as @e[tag=ds_campfire] unless data entity @s HandItems[{tag:{id:"lab/campsword"}}] run replaceitem entity @s weapon.mainhand iron_sword{id:"minecraft:iron_sword",Count:1b,tag:{display:{Name:"{\"text\":\"\\u00a7f\\u00a7n螺旋剑\"}",Lore:["{\"text\":\"\\u00a7f\\u00a7n\"}","{\"text\":\"\\u00a7f\\u00a7n祭祀场的营火遗失的剑。\"}","{\"text\":\"\\u00a7f\\u00a7n不能作为武器装备。\"}","{\"text\":\"\\u00a7f\\u00a7n\"}","{\"text\":\"\\u00a7f\\u00a7n刺向祭祀场的营火后，\"}","{\"text\":\"\\u00a7f\\u00a7n能够取回力量，在各个营火间传送。\"}","{\"text\":\"\\u00a7f\\u00a7n\"}","{\"text\":\"\\u00a7f\\u00a7n这把剑仅赐予被选上的余灰。\"}","{\"text\":\"\\u00a7f\\u00a7n审判者化为剑鞘，一直等待着余灰\"}"]},AttributeModifiers:[],id:"lab/campsword",created:1b},HideFlags:1}

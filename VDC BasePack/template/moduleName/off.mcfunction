@@ -1,0 +1,3 @@
+scoreboard players set moduleName module_switch 0
+data modify entity @e[limit=1,tag=vdc] ArmorItems[0].tag.moduleListText[{Name:"moduleName"}].Text set value '[{"translate":"§8§m-moduleName","clickEvent":{"action":"run_command","value":"/function vdc:module/moduleName/on"},"hoverEvent":{"action":"show_text","value":"§eby Author"}},"            ",{"translate":"vVersion","hoverEvent":{"action":"show_text","value":"上次更改原本写好的内容的版本为：§eLC§r\\nVersion= rv.uv.ov\\nrv=重写版本\\nuv=使用版本\\nov=优化版本   优化版本不影响使用。"}}]'
+tellraw @a "\u00a77moduleName 模块已关闭"

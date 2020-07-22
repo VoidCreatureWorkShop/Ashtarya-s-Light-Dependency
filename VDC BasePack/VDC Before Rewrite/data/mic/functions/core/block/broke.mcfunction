@@ -1,0 +1,3 @@
+execute as @e[tag=mic] at @s unless block ~ ~ ~ barrel run data merge entity @e[limit=1,sort=nearest,distance=..1,type=item,nbt={Item:{id:"minecraft:barrel"}}] {Item:{id:"minecraft:crafting_table",Count:1,tag:{uid:"melody_item_crafter",display:{Name:'["\\u00a7eMIC\\u00a7f工作台"]',Lore:['["\\u00a7f旋律物品合成器"]','["\\u00a7e多功能工作台二代"]']}}}}
+execute as @e[tag=mic] at @s unless block ~ ~ ~ barrel run scoreboard players remove MicCount worlddata 1
+execute as @e[tag=mic] at @s unless block ~ ~ ~ barrel run kill @s

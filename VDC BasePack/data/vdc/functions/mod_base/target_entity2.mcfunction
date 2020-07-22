@@ -1,0 +1,2 @@
+execute as @e[dx=0,dy=0,dz=0,tag=!target_starter] positioned ~-0.9999 ~-0.9999 ~-0.9999 if entity @s[dx=0,dy=0,dz=0] run tag @s add target_entity
+execute unless entity @e[tag=target_entity] as @s anchored feet positioned ^ ^ ^0.2 run function vdc:module/mod_base/function/target_entity2

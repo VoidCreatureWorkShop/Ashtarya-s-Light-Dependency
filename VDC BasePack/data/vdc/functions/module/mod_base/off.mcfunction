@@ -1,0 +1,3 @@
+scoreboard players set mod_base module_switch 0
+data modify entity @e[limit=1,tag=vdc] ArmorItems[0].tag.moduleListText[{Name:"mod_base"}].Text set value '[{"translate":"§8§m-mod_base","clickEvent":{"action":"run_command","value":"/function vdc:module/mod_base/on"},"hoverEvent":{"action":"show_text","value":"§eby Rainbow_"}},"               ",{"translate":"v0.1.0","hoverEvent":{"action":"show_text","value":"上次更改原本写好的内容的版本为：§e0§r\\n0.1.0= rv.uv.ov\\nrv=重写版本\\nuv=使用版本\\nov=优化版本   优化版本不影响使用。"}}]'
+tellraw @a "\u00a77mod_base 模块已关闭"

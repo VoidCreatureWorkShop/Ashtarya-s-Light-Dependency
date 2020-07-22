@@ -1,0 +1,6 @@
+世界生成模块
+	其下应有一个名为load.mcfunction的函数文件并被标签structure_registry.json所记录
+	生成持续2t
+	加载部分包括随机坐标应存放在结构函数文件内
+	1t判定并生成区块标记，随机函数
+	2t所有随机用marker为其

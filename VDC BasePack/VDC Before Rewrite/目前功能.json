@@ -1,0 +1,72 @@
+目前功能
+	·预设数字
+		调用:计分板名称：number， 虚拟实体名称：各个数字，如operation example var_a 1 number 
+	·计算机
+		调用:trigger c_GUI set 1
+		打开模块:
+			/scoreboard players set calculator UMS 1
+	·触发器
+		-计分板名称:key_shift
+			*缩写为 shift
+		-计分板名称:event_dead
+			*缩写为 dead
+		-计分板名称:event_attacked
+			*缩写为 attacked
+		-计分板名称:event_leave_game
+			*缩写为 leave
+	·计时器
+		-计分板名称:a10t
+			a3s
+			r2t
+			r10t
+			r15t
+		-警告：循环型计时器请勿使用与其名称相同的数字作为探测
+			如 r10t=10 是无法触发的。
+			建议使用 r10t=5 等其他数字
+	·视线探测
+		-前视终点返回值储存在sight_target_pos等计分板内
+		调用:
+			直接取出位于minecraft:module/sight的target等函数进行编辑使用或通过以下模板
+			直接取出修改后也需要用execute as @a at @s anchored eyes positioned ^ ^ ^0.1 run function使用模板。
+			调用模板:[
+				execute as @a at @s anchored eyes positioned ^ ^ ^0.1 run function minecraft:module/sight/target
+				execute as @a at @s run function [a]
+				#命令输入区↓
+				
+				#命令输入区↑
+				kill @e[tag=sight_target_use]
+				——————————————
+				#函数a
+				summon armor_stand ~ ~ ~ {Tags:["system","sight_target_use"],Marker:1,NoGravity:1,Invisible:1,Small:1,}
+				execute store result entity @e[limit=1,tag=sight_target_use] Pos[0] double 0.01 run scoreboard players get @s sight_target_x
+				execute store result entity @e[limit=1,tag=sight_target_use] Pos[1] double 0.01 run scoreboard players get @s sight_target_y
+				execute store result entity @e[limit=1,tag=sight_target_use] Pos[2] double 0.01 run scoreboard players get @s sight_target_z
+]
+	·十二个变量计分板
+		-a-e,1-7
+		-字母型的变量计分板每刻都会重置
+		调用:函数名称如var_a
+	·区块
+		-tag为chunk
+	·常加载坐标原点区块
+	
+	·近战伤害计数器
+		打开模块:
+			/scoreboard players set damage_tester UMS 1
+	
+	·战利品表骰子
+		*以后主要更新于 minecraft:bonus 下
+		-bonus:1_10
+		-bonus/1_10
+		-调用:
+			投骰子
+				loot spawn ~ ~ ~ loot minecraft:bonus/[名称]
+				loot spawn ~ ~ ~ loot bonus:[名称]
+			那啥门
+				execute if entity @e[type=item,nbt={Item:{tag:{uid:"bonus:chosen"}}}] run [命令]
+			
+			模板:[
+			loot spawn ~ ~ ~ loot minecraft:bonus/[分子]_[分母]
+			execute if entity @e[type=item,nbt={Item:{tag:{uid:"bonus:chosen"}}}] run 
+			kill @e[type=item,nbt={Item:{tag:{uid:"bonus:chosen"}}}]
+			]

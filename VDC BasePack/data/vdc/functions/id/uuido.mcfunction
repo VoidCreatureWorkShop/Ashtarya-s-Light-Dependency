@@ -1,0 +1,2 @@
+execute unless score @s uuido matches -2147483648.. run scoreboard players add #uuido_history_numbered vdc_var 1
+execute unless score @s uuido matches -2147483648.. run scoreboard players operation @s uuido = #uuido_history_numbered vdc_var

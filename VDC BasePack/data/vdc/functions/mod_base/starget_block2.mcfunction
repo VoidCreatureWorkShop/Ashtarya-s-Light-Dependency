@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ air run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["system","sight_target"]}
+execute if block ~ ~ ~ air rotated as @s anchored feet positioned ^ ^ ^0.2 run function vdc:mod_base/starget_block2
